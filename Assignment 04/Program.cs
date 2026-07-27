@@ -68,8 +68,22 @@
 
 #region Q06
 //Requirements
-// Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it
-//with double[] prices = { 25.5, 40.0 }
+// Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it with
+//double[] prices = { 25.5, 40.0 };
+//  جزء خاص بسؤال رقم 8
+//Console.WriteLine("valueArray Befoor");
+//foreach (double beforPrices in prices)
+//{
+//    Console.WriteLine(beforPrices);
+//}
+//Console.WriteLine("lenth befor value");
+//Console.WriteLine("   ");
+//Console.WriteLine(prices.Length);
+//Console.WriteLine("print after cal method");
+//Console.WriteLine("   ");
+//ReplaceArray(ref prices);
+//
+
 //; and print prices[0] afterward. What do you expect to
 //see, and why?
 
@@ -101,4 +115,26 @@
 //    pages = pages + 100;
 //}
 
+#endregion
+
+#region Q08
+//Requirements
+// Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a
+//new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length
+//afterward.
+
+//void ReplaceArray(ref  double[] prices)
+//{
+//     prices = new double[] { 10.0, 12.5, 15.0 };
+//    Console.WriteLine("after array lenth");
+//    Console.WriteLine("   ");
+//    Console.WriteLine(prices.Length);
+//    Console.WriteLine("valueee");
+//    Console.WriteLine("   ");
+//    foreach (double Arrayvalue in prices)
+//    {
+//        Console.WriteLine(Arrayvalue);
+//    }
+//}
+// كدا ال Array القديمه لسه موجوده ف الذاكره و Garbage هيشتغل ويمسحها 
 #endregion
