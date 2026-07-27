@@ -138,3 +138,34 @@
 //}
 // كدا ال Array القديمه لسه موجوده ف الذاكره و Garbage هيشتغل ويمسحها 
 #endregion
+
+#region Q09
+//Requirements
+//Write a method bool TryGetPrice(string title, out double price) that returns true and sets
+//price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0. Call it
+  
+//bool TryGetPrice(string title, out double price)
+//{
+//    if(title == "Clean Code")
+//    {
+//        price = 25.5;
+//        return true;
+//    }
+//    else
+//    {
+//        price = 0; 
+//       return false;
+//    }
+//}
+//double price;
+//string bookname;
+//do
+//{
+//bookname = Console.ReadLine();
+//    TryGetPrice(bookname, out  price);
+//    Console.WriteLine(price);
+//} while (bookname != "Clean Code");
+
+
+
+#endregion
