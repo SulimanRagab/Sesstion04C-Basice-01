@@ -34,5 +34,17 @@
 //}
 #endregion
 
+#region Q04
+//Requirements
+//Write a method PrintBookTitle(string title) that prints "Book title: " + title. Call it with
+//"Clean Code".
+//
+//PrintBookTitle("Clean Code او اي حاجه من استريينج");
+//void PrintBookTitle(string title)
+//{
+//    Console.WriteLine($"Book title: {title}"); // Book title: Clean Code او اي حاجه من استريينج
+//}
+
+#endregion
 
 
