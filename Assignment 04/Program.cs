@@ -60,3 +60,29 @@
 //Console.WriteLine(pages); // هنا القيمه  ب 300 لأن الميثود م غيرتش اصل قيمة المتغير
 #endregion
 
+#region Q06
+//Requirements
+// Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it
+//with double[] prices = { 25.5, 40.0 }
+//; and print prices[0] afterward. What do you expect to
+//see, and why?
+
+//double[] prices = { 25.5, 40.0 };
+//ApplyDiscount(prices);
+//Console.WriteLine(prices[0]);
+//void ApplyDiscount(double[] pric)
+//{
+//    pric[0] = pric[0] - 5;
+
+//    Console.WriteLine(pric[0]);
+
+//} 
+//Console.WriteLine("after Array Edit"); 
+//foreach (double price in prices)
+//{
+//    // اتوقع قبل الطباعه ان  prices[0]  اللي قيمتها ف الاصل 25.5 هتبقى 20.5 لأن الميثود بتغير ف اصل قيمة ال Ref
+    
+//    Console.WriteLine(price);
+//}
+#endregion
+
