@@ -47,4 +47,16 @@
 
 #endregion
 
+#region Q05
+////Requirements
+//
+//void AddBonusPages(int x)
+//{
+//    x = x + 50;
+//    Console.WriteLine(x); // هنا استقبلت نسخه من قيمة المتغير  وزودت عليه 50  ف اصبح النات 350    وقيمة المتغير الاصلي م اتغيرتش لسه زي م هيا 
+//}
+//int pages = 300;
+//AddBonusPages(pages);
+//Console.WriteLine(pages); // هنا القيمه  ب 300 لأن الميثود م غيرتش اصل قيمة المتغير
+#endregion
 
