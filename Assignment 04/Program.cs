@@ -56,6 +56,12 @@
 //    Console.WriteLine(x); // هنا استقبلت نسخه من قيمة المتغير  وزودت عليه 50  ف اصبح النات 350    وقيمة المتغير الاصلي م اتغيرتش لسه زي م هيا 
 //}
 //int pages = 300;
+//  خاص بسؤال رقم 7
+//Console.WriteLine(pages);
+//AddBonusPagesByRef(ref pages);
+//Console.WriteLine($" after method : pages = {pages}");
+// الميثود لما استقبلت  ب  ref  غيرت ف اصل قيمة المتغير مش اخدت منه نسخه 
+
 //AddBonusPages(pages);
 //Console.WriteLine(pages); // هنا القيمه  ب 300 لأن الميثود م غيرتش اصل قيمة المتغير
 #endregion
@@ -81,8 +87,18 @@
 //foreach (double price in prices)
 //{
 //    // اتوقع قبل الطباعه ان  prices[0]  اللي قيمتها ف الاصل 25.5 هتبقى 20.5 لأن الميثود بتغير ف اصل قيمة ال Ref
-    
+
 //    Console.WriteLine(price);
 //}
 #endregion
 
+#region Q07
+//Requirements
+//Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+//Call it and print pages afterward. How is the result different from question 5?
+//void AddBonusPagesByRef(ref int pages)
+//{
+//    pages = pages + 100;
+//}
+
+#endregion
