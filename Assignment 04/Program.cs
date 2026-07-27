@@ -19,4 +19,20 @@
 //Console.WriteLine(shelfCopies[0,1]); //  Print   5
 #endregion
 
+#region Q03
+//Requirements
+//Write a method called PrintWelcomeMessage that takes no parameters and prints
+//"Welcome to the Library!".Call it from Main.
+//main();
+//void main()
+//{
+//    PrintWelcomeMessage();
+//}
+//void PrintWelcomeMessage()
+//{
+//    Console.WriteLine("Welcome to the Library!");
+//}
+#endregion
+
+
 
