@@ -187,3 +187,31 @@
 //parameters, passing pages before title.
 //PrintBookInfo(pages: 250, title: "React");
 #endregion
+
+#region Q12
+//Requirements
+//Write a method PrintAllTitles(params string[] titles) that prints each title on its own line.
+//Call it with three book titles.
+
+// Without params
+//string[] titles = {"C#","Clan Code","C++" };
+//PrintAllTitles(titles);
+//void PrintAllTitles(string[] titles)
+//{
+//    foreach (string title in titles)
+//    {
+//        Console.WriteLine(title);
+//    }
+//}
+
+// params
+
+//PrintAllTitles("C#", "Clan Code", "C++" ,"Java Script" , "params" , "....."); // انا  استدعيتها مع اكثر من 3 عنوايين أن params بتقبل أي عدد من العناصر
+//void PrintAllTitles(params string[] titles)
+//{
+//    foreach (string title in titles)
+//    {
+//        Console.WriteLine(title);
+//    }
+//}
+#endregion
